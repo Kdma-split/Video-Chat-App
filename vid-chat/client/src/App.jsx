@@ -4,7 +4,7 @@ import VideoChat from './pages/VideoChat.page.jsx';
 function App() {
   return (
     <Routes>
-      <Route path="/video-chat" element={ <VideoChat /> }/>
+      <Route path="/" element={ <VideoChat /> }/>
     </Routes>
   )
 }
